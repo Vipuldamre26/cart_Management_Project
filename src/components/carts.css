@@ -1,0 +1,144 @@
+.navbar{
+    height: 5rem;
+    background-color: #645CFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar p{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.navbar .nav-icon{
+    font-size: 2.2rem;
+}
+
+.navbar .navbar-content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar-content span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5rem;
+    background-color: #aeaaff;
+    position: absolute;
+    right: -17px;
+    top: -17px;
+    font-size: 1.2rem;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.content .cart img{
+    height: 90px;
+    width: 90px;
+}
+
+.content .cart {
+    display: flex;
+    width: 62%;
+    margin: 1.4rem auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .cart .cart-content{
+    display: flex;
+    width: 72%;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.content .cart .cart-content h2{
+    margin: 0;
+}
+
+.content .cart .cart-content p{
+    margin: 0.5rem 0;
+}
+
+.content .cart .cart-content button{
+    border: none;
+    color: rgb(60, 60, 255);
+    cursor: pointer;
+}
+
+hr{
+    width: 62%;
+    margin: 2rem auto;
+}
+
+.carts .cart .cart-content2 .btn{
+    color: rgb(70, 70, 255);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.carts .cart .cart-content2 p{
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+
+.carts .total{
+    width: 55%;
+    margin: 2rem auto;
+}
+
+.carts .total .total-content{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carts .total .total-content p{ 
+    font-size: 1.7rem;
+}
+
+.carts .total .total-content span{ 
+    height: 2.4rem;
+    width: 7rem;
+    background-color: #645CFF;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carts .total button{ 
+    width: 6rem;
+    height: 2.2rem;
+    background-color: rgb(202, 202, 255);
+    border: none;
+    color: rgb(30, 34, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.carts .total button:hover{ 
+    background-color: rgb(72, 72, 255);
+    color: #aeaaff;
+    transition: 0.3s ease-in-out;
+}
