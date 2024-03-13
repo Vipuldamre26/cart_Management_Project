@@ -70,7 +70,7 @@ const Carts = (props) => {
         const newData = data.filter((item) => {
             if (item.id === id) {
                 setCartItems((prev) => prev - item.quantity)
-                setTotal((prev) => (prev - parseFloat((item.price*item.quantity).toFixed(2))));
+                setTotal((prev) => parseFloat((prev - (item.price*item.quantity)).toFixed(2)));
 
             }
             return item.id !== id;
@@ -111,7 +111,7 @@ const Carts = (props) => {
                                 <img src={item.img}></img>
                                 <div className='cart-content'>
                                     <h2>{item.name}</h2>
-                                    <p>{item.price}</p>
+                                    <p>$ {item.price}</p>
                                     <button onClick={() => removeItem(item.id)}>remove</button>
                                 </div>
                                 <div className='cart-content2'>
